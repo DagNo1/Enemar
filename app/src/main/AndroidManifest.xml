@@ -12,14 +12,51 @@
         android:theme="@style/Theme.Enemar"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".SplashScreen"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".phone.Phonecourse"
+            android:exported="false" />
+        <activity
+            android:name=".tutorial.Tutorial4"
+            android:exported="false" />
+        <activity
+            android:name=".tutorial.Tutorial3"
+            android:exported="false" />
+        <activity
+            android:name=".tutorial.Tutorial1"
+            android:exported="false" />
+        <activity
+            android:name=".tutorial.Tutorial0"
+            android:exported="false" />
+        <activity
+            android:name=".tutorial.Tutorial"
+            android:exported="false" />
+        <activity
+            android:name=".tutorial.UserPref"
+            android:exported="false" />
+        <activity
+            android:name=".login_signup.Register"
+            android:exported="false" />
+        <activity
+            android:name=".login_signup.LogIn"
+            android:exported="false" />
+        <activity
+            android:name=".FirstTime.BoardingScreen"
+            android:exported="false"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

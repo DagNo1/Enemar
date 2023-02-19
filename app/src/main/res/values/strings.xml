@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">Enemar</string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>Amharic</item>
+        <item>Java</item>
+        <item>JavaScript</item>
+        <item>BrainF***</item>
+    </string-array>
+    <string name="freelancer">Learn anytime, and anywhere</string>
+    <string name="farmer">Grasp real world skills to benefit your economic needs</string>
+    <string name="seminar">High quality lectures and unlimited questions</string>
+    <string name="placeHolder">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit.</string>
+    <string name="forgotpassword"><u>Forgot your password?</u></string>
+    <string name="terms">By continuing you accept our <u>Privacy Policy</u> and <u>Term of Use</u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="basic_litercy">To start of your journey start with the basic literacy course where you will learn the basics of using smart phones and basic English grammer.</string>
+    <string name="english_text1">English has become a global language that connects people from different cultures and backgrounds, and as such, it is essential to learn English to communicate with people from all over the world.</string>
+    <string name="english_text2">Most technological devices use English as a default language which makes learning English a must in order to use a technological project.</string>
+    <string name="englishText3">In most technological devices we use the word Settings to denote that inside here users can fix their account settings such as password, payment option, profile photo and many more.</string>
+    <string name="engtext4">In this section you will learn basic English terms widely used in technological devices, what a phone is, and how to use one.</string>
+    <string name="engtext5">Touch the first course to start your course, by touching the title you will start your course. The Circle you see next to the title is a progress bar which gives u progress on your course. After every title there will be a test.</string>
+    <string name="this_is_the_place_you_will_learn_at_learning_can_be_done_in_various_ways_the_course_maybe_given_in_a_text_or_in_a_video">This is the place you will learn at. Learning can be done in various ways. The course maybe given in a text or in a video.</string>
+    <string name="after_finishing_learning_press_this_button_to_go_the_next_phase_of_your_learning_process_happy_learning">After finishing learning press this button to go the next phase of your learning process. Happy learning.</string>
 </resources>

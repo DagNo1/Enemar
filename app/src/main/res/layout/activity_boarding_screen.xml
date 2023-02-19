@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstTime.BoardingScreen">
+
+    <Spinner
+        android:id="@+id/lang"
+        android:layout_width="90sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="English"
+        android:spinnerMode="dropdown"
+        android:textColor="@color/header_black"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.889"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/viewPager2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40sp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lang"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/slideImage"
+            android:src="@drawable/freelancer_bro_1"
+            android:layout_width="match_parent"
+            android:layout_height="300sp"
+            android:scaleX="1.3"
+            android:scaleY="1.3"/>
+        <TextView
+            android:layout_marginTop="15sp"
+            android:layout_gravity="center"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/header"
+            android:text="@string/freelancer"
+            android:textSize="25sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/header_black"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/placeHolder"
+            android:gravity="center"
+            android:paddingHorizontal="15sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30sp"
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/viewPager2">
+
+        <ImageView
+            android:id="@+id/ci1"
+            android:layout_width="13sp"
+            android:layout_height="13sp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="5sp"
+            android:src="@drawable/circular_indicator_color" />
+
+        <ImageView
+            android:id="@+id/ci2"
+            android:layout_width="13sp"
+            android:layout_height="13sp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="5sp"
+            android:src="@drawable/circular_indicator_color_unselected" />
+
+        <ImageView
+            android:id="@+id/ci3"
+            android:layout_width="13sp"
+            android:layout_height="13sp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="5sp"
+            android:src="@drawable/circular_indicator_color_unselected" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nxt_btn"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_main"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:padding="10sp"
+        android:paddingHorizontal="30sp"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/indicator"
+        app:layout_constraintVertical_bias="0.174" />
+
+    <TextView
+        android:id="@+id/get_started_btn"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_main"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:padding="10sp"
+        android:paddingHorizontal="30sp"
+        android:text="Get Started"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/indicator"
+        app:layout_constraintVertical_bias="0.275" />
+</androidx.constraintlayout.widget.ConstraintLayout>
